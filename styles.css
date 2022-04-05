@@ -1,0 +1,30 @@
+h1{
+    color: purple;
+    text-align: center;
+}
+
+/* 3) How do I select for children of specific elements? */
+ul {
+    border: 5px dashed;
+    text-align: center; 
+    list-style: none; 
+    padding-left: 0;
+    width: 50%;
+    margin: auto;
+}
+
+ul>li {
+    border: 3px outset;
+    display: inline-block;
+}
+
+p{
+    text-align: center;
+}
+body {
+
+    text-align: center;
+}
+img {
+    width: 35%;
+}
